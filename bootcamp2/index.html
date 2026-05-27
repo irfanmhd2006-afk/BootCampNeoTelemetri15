@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portofolio</h1>
+        <nav>
+            <a href="/">Beranda</a>
+            <a href="/contact">contact</a>
+            
+        </nav>
+    </header>
+    <div class="container1">
+        <h2>Muhammad Irfan</h2>
+        <p>click untuk melihat biodata</p>
+        <button onclick="toogleBio()" >lihat Biodata</button>
+
+        <div id="biodata" style="display: none;">
+        <p>NIM          : 2511531008</p>
+        <p>Universitas  : Universitas Andalas</p>
+        <p>Jurusan      : Teknik Informatika</p>
+        <p>Hobi         : Mukbang</p>
+        </div>
+    </div>
+
+    <div class="container2" id="colorBox">
+        <h2>pilih 2 warna yang diinginkan</h2>
+        <div class="kotakwarna">
+        <button onclick="gantiwarna('red')" style="background-color: red; color :white" >merah</button>
+        <button onclick="gantiwarna('blue')" style="background-color: blue; color :white">biru</button>
+        </div>
+    </div>
+
+    <div class="container3">
+    <h2>Skill lu apa?</h2>
+    <div class="input-row">
+        <input type="text" id="skillInput" placeholder="Tulis skill kamu..."/>
+        <button onclick="tambahSkill()">tambah</button>
+    </div>
+    <ul id="skillList"></ul>
+    </div>
+
+    <footer>
+        <p>(c) 2026 UKM neo telemetri</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

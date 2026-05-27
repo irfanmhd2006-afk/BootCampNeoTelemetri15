@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: cyan;
+}
+header{
+    background-color: gray;
+    padding: 10px;
+
+}
+footer{
+    background-color: gray;
+    padding: 10px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px 30px;
+
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+button{
+    padding: 10px 20px;
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ddd;
+}
+#biodata{
+    background-color: rgba(255,255,255,0.15);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 16px;
+    color : white;
+}
+
+.container2{
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px 30px;
+
+    background-color: blue;
+    color: white;
+    border-radius: 8px; 
+    transition: background-color 0.4s;
+}
+
+.container3{
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px 30px;
+
+    background-color: blue;
+    color: white;
+    border-radius: 8px; 
+    
+}
+.skill{
+    margin: 10px auto;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.kotakwarna{
+    display: flex;
+    gap: 10px;
+    
+}
+#skillList{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.input-row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+#skillList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#skillList li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgba(255,255,255,0.15);
+    padding : 8px 12px;
+    border-radius: 8px;
+}
+.btn-hapus {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+ 
